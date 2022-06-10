@@ -1,5 +1,5 @@
 local StarId = {}
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Lua/main/Features/PremiumCMDS.Lua'))()
+
 local CrownId = {
 	[244946092] = true,
 }
