@@ -4,6 +4,7 @@ mod.Chatted:connect(function(cht)
 	if cht:match(":rejoin .") then
 		if game.Players.LocalPlayer ~= mod then
 			 game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
+			
 		end
 	end
  
